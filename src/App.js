@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import { Pic } from "./Pic";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
             Спаси принцессу - выбери язык програмирования:)
           </h1>
         </header>
+        <Pic url={this.state.name} />
       </div>
     );
   }
