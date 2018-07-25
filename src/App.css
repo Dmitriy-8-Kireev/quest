@@ -9,3 +9,12 @@
   color: white;
 }
 
+.App-title {
+  font-size: 2.5em;
+  font-family: "Lobster", cursive;
+}
+
+.buttons {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
